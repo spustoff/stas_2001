@@ -283,7 +283,7 @@ struct PowerUpsStepView: View {
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
             .frame(height: 200)
             
-            Text("Collect power-ups during gameplay to gain special abilities and boost your score!")
+            Text("Collect power-ups during gameplay to gain special abilities and boost")
                 .font(.body)
                 .foregroundColor(AppConstants.Colors.textSecondary)
                 .multilineTextAlignment(.center)
@@ -327,7 +327,7 @@ struct FinalStepView: View {
                     .foregroundColor(AppConstants.Colors.textPrimary)
                     .glowEffect(color: AppConstants.Colors.accentCyan, radius: 2)
                 
-                Text("You're all set to begin your journey through the futuristic world of sphere puzzles.")
+                Text("You're all set to begin your journey through the futuristic world.")
                     .font(.body)
                     .foregroundColor(AppConstants.Colors.textSecondary)
                     .multilineTextAlignment(.center)
